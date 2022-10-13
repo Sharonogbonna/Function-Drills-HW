@@ -12,9 +12,9 @@
  * When invoked, sayHello should print the string 'hello world'.
  */
 // function sayHello(){
-//   return 'hello world'
+//   return 'hello world';
 // }
-// console.log(sayHello())
+// console.log(sayHello());
 /*
  * Prompt 2:
  *
@@ -24,10 +24,10 @@
 
 // function print (message){
 //   if (typeof message == 'string'){
-//     console.log(message)
+//     console.log(message);
 //   }
 // }
-// print('hey it worked!')
+// print('hey it worked!');
 /*
  * Prompt 3:
  *
@@ -37,10 +37,10 @@
  */
 // const printMessage = (message) => {
 //   if (typeof message == 'string'){
-//     console.log(`Today's message is: ${message}`)
+//     console.log(`Today's message is: ${message}`);
 //   }
 // }
-// printMessage('hey this one worked too!!')
+// printMessage('hey this one worked too!!');
 
 /*
  * Prompt 4:
@@ -50,9 +50,9 @@
 
 /** Starter Code */
 // function squared(a) {
-//     return a ** 2
+//     return a ** 2;
 //   }
-//   console.log(squared(5))
+//   console.log(squared(5));
   /*
    * Prompt 5:
    *
@@ -65,8 +65,7 @@
   //   //split( splits string into an array)
   //   //reverse(method reverses an array in place)
   //   //join(joins elements of an array into string)
-  //   console.log(message)
-  //   return message.split('').reverse().join('')
+  //   return message.split('').reverse().join('');
   // }
   // console.log( reverseMessage('hey it worked but in reverse'))
 
@@ -80,10 +79,10 @@
    * Hint: use a default parameter.
    */
   // const multiply = (a, b = 2) => {
-  //   return a * b
+  //   return a * b;
   // }
-  // console.log(multiply(5,8))
-  // console.log(multiply(5))
+  // console.log(multiply(5,8));
+  // console.log(multiply(5));
 
   /*
    * Prompt 7:
@@ -99,10 +98,10 @@
   //   }
   // }
   
-  // const zakk = new Person('Zakk', 'F')
-  // const jimmy = new Person('Jimmy', 'B')
-  // console.log(zakk)
-  // console.log(jimmy)
+  // const zakk = new Person('Zakk', 'F');
+  // const jimmy = new Person('Jimmy', 'B');
+  // console.log(zakk);
+  // console.log(jimmy);
   
   /*
    * Prompt 8:
@@ -112,8 +111,8 @@
 //   const returnObjectUser = (firstName, lastName) =>{
 //     let user = {};
 //     user.firstName = firstName;
-//     user.lastName = lastName
-//     return user
+//     user.lastName = lastName;
+//     return user;
 //   }
 // console.log(returnObjectUser('sharon', 'ogbonna'))  
   /*
@@ -122,11 +121,11 @@
    * Write a function that returns an array. The array can be of anything.
    */
   // const returnArray = (item1, item2, item3) => {
-  //   let newArray = []
-  //   newArray.push(item1,item2,item3)
-  //   return newArray
+  //   let newArray = [];
+  //   newArray.push(item1,item2,item3);
+  //   return newArray;
   // }
-  // console.log(returnArray('paint', 'music', 'poetry'))
+  // console.log(returnArray('paint', 'music', 'poetry'));
   /*
    * Prompt 10:
    *
@@ -135,14 +134,14 @@
    */
   
   /** Starter Code */
-  // let sum = 0
+  // let sum = 0;
   // const addToSum = (num) => {
-  //   sum += num
-  //   return sum
+  //   sum += num;
+  //   return sum;
   // }
-  // console.log(addToSum(5))
-  // console.log(addToSum(300))
-  // console.log(addToSum(7))
+  // console.log(addToSum(5));
+  // console.log(addToSum(300));
+  // console.log(addToSum(7));
   
   
   /*
@@ -151,20 +150,26 @@
    * Write a function that takes an array of number values and returns the sum.
    * Test it out to make sure it works.
    */
-  const sumOfArray = (array) =>{
-    let length = array.length
-    for(i = 0; i<= length; i++){
-      
-    }
-  }
-  
+  // const sumOfArray = (array) =>{  
+  // let length = array.length;
+  //   let sum = 0;
+  //   for(i = 0; i< length; i++){
+  //     sum += array[i];
+  //   }
+  //   return sum;
+  // }
+  // console.log(sumOfArray([1, 3, 6, 10]));
   /*
    * Prompt 12:
    *
    * Write a function that takes a string and returns an array of every word in
    * the string.
    */
-  
+  // const covertStringToArray = (sentence) => {
+  //   let sentenceArray = sentence.split(' ');
+  //   return sentenceArray;
+  // }
+  // console.log(covertStringToArray('If this works it\'s a slay'));
   
   /*
    * Prompt 13:
@@ -174,7 +179,12 @@
    */
   
   /** Starter Code */
-  // testFunc()()
+  // const testFunc = (string1) => {
+  //   return function(string2){
+  //     return `${string1} ${string2}!`
+  //   }
+  // }
+  // console.log(testFunc('this')('works'))
   
   
   
@@ -189,7 +199,7 @@
   // function add(a, b) {
   //   return a + b
   // }
-  
+
   
   /*
    * Prompt 15:
